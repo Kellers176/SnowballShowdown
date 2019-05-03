@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1163865772507118}
+  m_IsPrefabAsset: 1
+--- !u!1 &1163865772507118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4099648957342104}
+  - component: {fileID: 114182919279592476}
+  - component: {fileID: 114662752966324576}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4099648957342104
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163865772507118}
+  m_LocalRotation: {x: -0, y: -0.035883073, z: -0, w: 0.99935603}
+  m_LocalPosition: {x: 1.7238159, y: 2.996, z: -22.819489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114182919279592476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163865772507118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc886af6e93879c40a54188cd6f87152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {x: 0, y: 1.5, z: -11.5}
+  matchTime: 120
+  playerPrefab: {fileID: 1992847686314404, guid: d6d0ac0c30ac81f48bc00a3ea7aa5b9e,
+    type: 2}
+  rHandPrefab: {fileID: 1779360232327064, guid: c2b09e82b703c6c429103be76e845e1f,
+    type: 2}
+  lHandPrefab: {fileID: 1031222904233118, guid: 6b13455a23570eb428be255f05efb432,
+    type: 2}
+  bodyPrefab: {fileID: 1916548513979624, guid: bef34188432cb354ab1ba8d11c101f88, type: 2}
+  timers:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114662752966324576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163865772507118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114182919279592476}
+  viewIdField: 0
+  InstantiationId: 10
+  isRuntimeInstantiated: 0

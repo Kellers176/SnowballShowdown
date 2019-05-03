@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Snowball Showdown/Scenes/LobbyScene.unity
+    guid: 0b6d71f5af99acf4d91ef40bbc4ee066
+  - enabled: 1
+    path: Assets/Snowball Showdown/Scenes/Room for 1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Snowball Showdown/Scenes/Room for 2.unity
+    guid: 61fb7125d45efd54b83f2c67415c53e8
+  m_configObjects: {}
